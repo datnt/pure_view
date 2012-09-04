@@ -31,3 +31,11 @@ if (url.indexOf('http://vnexpress.net') != -1){
         $('#BALLOON_BANNER_CPM').remove();
     });
 }
+
+if (url.indexOf('http://tuoitre.vn/') != -1){
+    $('#adRight1').remove();
+    $('#adRight2').remove();
+    $('#adRight3').remove();
+    $('div.QCIframe').remove();
+    $('#tinanh_bottom').next().remove();
+}
